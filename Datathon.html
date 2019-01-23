@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Day 3 &amp; 4 : Datathon</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Timothée Gidoin - Nicolas Vogtenberger" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/datactivist.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/datactivist-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Day 3 &amp; 4 : Datathon
+## Coding Week Sciences Po
+### Timothée Gidoin - Nicolas Vogtenberger
+### January 2019
+
+---
+
+
+layout: true
+  
+
+&lt;div class='my-footer'&gt;&lt;span&gt;Coding Week Sciences Po&lt;/span&gt; &lt;center&gt;&lt;div class=logo&gt;&lt;img src='' width='100px'&gt;&lt;/center&gt;&lt;/span&gt;&lt;/div&gt; 
+
+---
+## Before we start : reminder
+&lt;BR&gt;
+
+#### Find those slides online : https://github.com/Gidoin/Codingweek
+
+
+#### Notepad beginners coding session : https://hackmd.io/Fg2Np-hSTZuUuCD1-okgjQ?both
+
+
+#### Notepad advanced coding session : https://hackmd.io/N13Qq0-gQyGUeeuf3QNeiQ?both
+
+&lt;BR&gt;
+
+Datactivist productions are freely reusable under the terms of the licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+
+[Joel Gombin email adress](joel@datactivist.coop) // 
+[Sylvain Lapoix email adress](sylvain@datactivist.coop)
+
+---
+## Before we start : feedbacks
+
+#### Did you enjoy the first 2 days ?
+
+.center[&lt;img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" height="400"/&gt;]
+
+&lt;BR&gt;&lt;BR&gt;
+
+---
+## Before we start : feedbacks
+
+#### What could be improved ?
+
+.center[&lt;img src="https://media.giphy.com/media/3o7aDgsiRMtIlrSZpu/giphy.gif" height="350"/&gt;]
+
+---
+## Before we start : feedbacks
+
+#### What could be improved ?
+
+Apart from getting schwifty...
+
+---
+## Before we start : who we are 
+
+.pull-left[.reduite[![](https://pbs.twimg.com/profile_images/984736740039643136/fIi9wuhI_400x400.jpg)] [**Timothée Gidoin**](timothee.gidoin@sciencespo.fr)]
+
+.pull-right[.reduite[![](https://pbs.twimg.com/profile_images/1054488705757519874/0QajOjHh_400x400.jpg)] [**Nicolas Vogtenberger**](nicolas.vogtenberger@sciencespo.fr)]
+
+---
+class: inverse, center, middle
+## Let's get started
+
+---
+## Datathon organisation
+
+### 3 goals :
+
+1) Make you work, by team, on real public policies issues **through a data point of view**
+
+--
+
+2) **Design a possible solution** to the issue you analysed
+
+--
+
+3) **Share your results** both online (Github &amp; Medium) and offline
+
+--
+
+.center[&lt;img src="https://media.giphy.com/media/l378fIHIADPMXGwww/giphy.gif" height="230"/&gt;]
+
+---
+## Datathon organisation
+
+### Day 1 : data analysis
+
+- 9h : Let's get started *(30 minutes)*
+
+- 9h30 : Introduction to open data *(30 minutes)*
+
+- 10h : Launch of the datathon : unveiling the topics &amp; constitution of the groups *(30 minutes)*
+
+- 10h30 : Looking for sources &amp; datasets (*2 hours*)
+
+- 12h30 : 1 hour Break 
+
+- 13h30 : Brainstorming &amp; Data analysing (*2 hours*)
+
+- 15h30 : Graphical data representation (*2 hours*)
+
+.center[**17h30 - 20h** : *.red[Optional] further session for volunteers*]
+
+
+---
+## Datathon organisation
+
+### Day 2 : designing a solution
+
+- **9h15** : Introduction to design thinking / workshop *(2,75 hours)*
+
+- 11h : Sprint to formalize both your analysis and solution (*4,5 hours* including 1 hour break)
+  - Prepare few slides, 
+  - Write a Medium article,
+  - Tidy and put your code on Codingweek repo Github
+
+- 15h30 : Official restitution in front of the jury (5 minutes per project + 5 minutes Q/A) (*2 hours*)
+
+- 16h45 : Grand Jury decision and prize giving *(15 minutes)*
+
+---
+class: inverse, center, middle
+## Introduction to open data
+
+---
+## Open data principles
+
+### 1. Completeness
+
+#### Datasets released by the government should be as complete as possible, .red[reflecting the entirety of what is recorded] about a particular subject. 
+
+#### All raw information from a dataset should be released to the public, .red[except to private information] and information that may be sensitive for .red[national safety]
+
+
+---
+## Open data principles
+
+### 2. Primacy / Raw data
+
+####  Datasets released by the government should be .red[primary source data]
+
+---
+## Open data principles
+
+### 3. Timely data
+
+#### Datasets released by the government should be available to the public .red[as soon as possible]
+
+---
+## Open data principles
+
+###  4. Ease of Physical and Electronic Access
+
+#### Datasets released by the government should be as accessible as possible, with accessibility defined as .red[the ease with which information can be obtained], whether through physical or electronic means
+
+---
+## Open data principles
+
+### 5. Machine readability
+
+####  Machines can handle certain kinds of inputs much better than others. Information shared in the widely-used PDF format, for example, is very difficult for machines to parse
+
+#### Thus, information should be stored in widely-used file formats that easily lend themselves to machine processing.
+
+---
+## Open data principles
+
+### 6. Non-discriminatory access to data
+
+#### “Non-discrimination” refers to who can access data and how they must do so
+
+#### non-discriminatory access to data means that .red[any person can access the data at any time without having to identify him/herself] or provide any justification for doing so.
+
+---
+## Open data principles
+
+### 7. Open standards
+
+#### Open standards refer to who owns the format in which data is stored
+
+--
+
+#### Microsoft .red[Excel] is a fairly commonly-used spreadsheet program which costs money to use. Freely available alternative formats often exist by which stored data can be accessed without the need for a software license
+
+---
+## Open data principles
+
+### 8. Open Licence 
+
+#### Maximal openness includes clearly .red[labeling public information] as a work of the government and .red[available without restrictions on use] as part of the public domain
+
+#### In France two type of licences : .red[Licence Ouverte (CC-BY)] ou .red[ODBL (CC-BY-SA)]. Do you know the difference ?
+
+--
+
+- **LO (from Etalab) / ODBL** : with both you can share, edit the database, create derived products and had a commercial usage
+
+- **LO** : more "permissive" : you just have to mention the source and the date of update
+
+- **ODBL** : you have to share and open your database at the same conditions
+
+---
+## Challenge 1 : data findability
+
+
+&gt; Data findability is a major challenge. We have data portals and registries, but government agencies under one national government still publish data in different ways and different locations.(…)
+**Data findability is a prerequisite for open data to fulfill its potential and currently most data is very hard to find.** 
+
+.center[&lt;img src="https://index.okfn.org/images/Datagapsclean.jpg" height="280" /&gt;]
+
+.footnote[https://index.okfn.org/insights/]
+
+---
+## Challenge 1 : data findability
+
+![](img/deception.gif)
+
+---
+## Défi 2 : data quality
+
+&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;
+
+&gt; **Government data is usually incomplete, out of date, of low quality, and fragmented.** In most cases, open data catalogues or portals are manually fed as the result of informal data management approaches. **Procedures, timelines, and responsibilities are frequently unclear among government institutions tasked with this work.**
+.footnote[http://opendatabarometer.org/4thedition/report/]
+
+---
+## Défi 2 : data quality
+
+![](img/odb.png)
+
+---
+## Open Data example : base SIRENE
+
+.center[&lt;img src="img/sirene.png" height="400" /&gt;]
+
+---
+## Open Data reutilisation : base SIRENE
+
+.center[&lt;img src="img/ruesoif.png" height="400" /&gt;]
+---
+## Open Data example : road accidents
+
+.center[&lt;img src="img/accidents.png" height="400" /&gt;]
+---
+## Open Data reutilisation : road accidents
+
+.center[&lt;img src="img/trajetleplussur.png" height="400" /&gt;]
+
+---
+## Open Data reutilisation : road accidents
+
+.center[&lt;img src="img/marsactu.png" height="400" /&gt;]
+
+.footnote[[Map by Joël Gombin in Marsactu](https://joelgombin.github.io/marsactu_accidents/chronique.html)]
+
+---
+## Open Data example : sanitary inspections
+
+.center[&lt;img src="img/aliminfos.png" height="400" /&gt;]
+
+.footnote[[Résultats des contrôles officiels sanitaires : dispositif d'information « Alim’confiance »](https://www.data.gouv.fr/fr/datasets/resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance/)]
+---
+## Open Data reutilisation : sanitary inspections
+
+.center[&lt;img src="img/resto.png" height="400" /&gt;]
+
+.footnote[[26 établissements au niveau d'hygiène à corriger de manière urgent ](https://dgal.opendatasoft.com/explore/embed/dataset/export_alimconfiance/map/?disjunctive.app_libelle_activite_etablissement&amp;disjunctive.filtre&amp;refine.synthese_eval_sanit=A%20corriger%20de%20mani%C3%A8re%20urgente&amp;location=6,47.24195,5.00977&amp;static=false&amp;datasetcard=true)]
+
+---
+## Open Data example : crime data
+
+.center[&lt;img src="img/crime.png" height="400" /&gt;]
+
+---
+class: inverse, center, middle
+## Launch of the datathon
+
+---
+## Topics &amp; groups
+
+Here are the 6 topics
+
+- **Do the French students cost too much ?**
+- ** Do the French public servants cost too much ?** *.red[Grand débat National]*
+- ** So as to reduce the public debt and taxes, which public spendings shall be cut off in priority ?** *.red[Grand débat National]*
+- ** Are there too many representatives in France ?**
+- ** Are French representatives paid too much ?**
+- ** Are French public services too concentrated in the cities ?** *.red[Grand débat National]*
+
+You have 20 minutes to form a group of 5-6 students with at least 2 "advanced" students
+
+---
+class: inverse, center, middle
+
+# Thank you
+
+Contact : [timothee@datactivi.st](mailto:timothee@datactivi.st)
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
