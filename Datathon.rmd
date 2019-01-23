@@ -3,16 +3,8 @@ title: "Day 3 & 4 : Datathon"
 subtitle: "Coding Week Sciences Po"
 author: "Timothée Gidoin - Nicolas Vogtenberger"
 date: "January 2019"
-output:
-  SlidesDatactivist::moon_reader:
-    css: [default, datactivist, datactivist-fonts]
-    lib_dir: libs
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
-params:
-  event: Coding Week Sciences Po
+output: pagedown::html_resume
+
 ---
 
 layout: true
